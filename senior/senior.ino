@@ -3,8 +3,7 @@
 String inString;
 int value;
 
-boolean q = false,e= false,a= false, d= false, space= false;
-
+boolean q = false,e = false,a = false, d = false, space = false;
 
 int M1 = 6, M2 = 7, M3 = 8, M4 = 9, GATE = 11;
 int M1e = 5, M2e = 3;
@@ -12,12 +11,9 @@ int M1e = 5, M2e = 3;
 int GATE_OPEN = 10;
 int GATE_CLOSED = 90;
 
-
 Servo gate;
 
-// the setup function runs once when you press reset or power the board
 void setup() {
-  // initialize digital pin LED_BUILTIN as an output.
   Serial.begin(9600);
   Serial.setTimeout(100);
   pinMode(M1, OUTPUT);
@@ -39,7 +35,6 @@ void setup() {
   gate.attach(GATE);
 }
 
-// the loop function runs over and over again forever
 void loop() {
   updatePins();
   
