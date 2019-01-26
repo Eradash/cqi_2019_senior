@@ -1,4 +1,4 @@
-# cqi_2019_senior
+# CQI 2019 - Conception sénior - UQAC
 
 Ceci est le code de la machine de l'équipe de conception sénior de l'UQAC pour la Compétition Québécoise d'Ingénierie.
 
