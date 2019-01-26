@@ -3,9 +3,7 @@
 String inString;
 int value;
 
-boolean q = false,w = false,e= false,r= false,t= false,y= false,a= false,s= false,
-d= false,f= false,g= false,h= false,z= false,x= false,c= false,v= false,b= false,n= false,
-ctrl= false, maj= false, space= false, option= false, command= false, caps= false;
+boolean q = false,e= false,a= false, d= false, space= false;
 
 
 int M1 = 6, M2 = 7, M3 = 8, M4 = 9, GATE = 11;
